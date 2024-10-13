@@ -43,9 +43,9 @@
     </script>
 </div>
 <script type="module">
-    // import {app} from '/javascripts/config.js';
-    // import {getDatabase, ref, set, get} from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
-    // const db = getDatabase(app);
+    import {app} from '/javascripts/config.js';
+    import {getDatabase, ref, set, get} from "https://www.gstatic.com/firebasejs/10.13.2/firebase-database.js";
+    const db = getDatabase(app);
 
     let query=$(frm.query).val();
     let page=1;
